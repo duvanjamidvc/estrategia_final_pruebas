@@ -4,7 +4,7 @@ Puede consular la estrategia de pruebas aquí [https://docs.google.com/document/
 ## Inventario de pruebas manuales exploratorias
 [https://docs.google.com/spreadsheets/d/1XtZmVOyZf9qPfCrH6DZhE-2XPEByrG8c/edit?usp=sharing&ouid=106675374400651922730&rtpof=true&sd=true](https://docs.google.com/spreadsheets/d/1XtZmVOyZf9qPfCrH6DZhE-2XPEByrG8c/edit?usp=sharing&ouid=106675374400651922730&rtpof=true&sd=true)
 
-## Ejecución de pruebas 
+## Ejecución de pruebas end to end y de validación de datos
 Dentro de este repositorio encontrara el codigo fuente para la ejecución de distintas pruebas planteadas en la estartegia relacionada anteriormente.
 
 Para la ejecución de los diferentes escenarios de pruebas, por favor siga las instrucciones:
