@@ -4,8 +4,8 @@
 	"description": "Pruebas end to end ghost",
 	"main": "index.js",
 	"scripts": {
-		"test:no-exit": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/scenarios_post_random.spec.js' --headed chrome --no-exit",
-		"start": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/scenarios_post_random.spec.js' --headless  chrome ",
+		"test:no-exit": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/*.js' --headed chrome --no-exit",
+		"start": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/*.js' --headless  chrome ",
 		"start:record": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/*.js' --headless  chrome --record --key 95cb80ed-138e-4ebb-9bb5-cb99734d44a8 ",
 		"start:head": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/*.js' --headed  chrome "
 	},
