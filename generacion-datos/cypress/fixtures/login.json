@@ -1,0 +1,160 @@
+{
+	"dataValid": [
+		{
+			"email": "dj.vargasc1@uniandes.edu.co",
+			"password": "bonita1809"
+		},
+		{
+			"email": "plinio@uniandes.edu.co",
+			"password": "bonita1809"
+		}
+	],
+	"dataInvalid": [
+		{
+			"email": "msimmon0@uol.com.br",
+			"password": "zqfSsQd1UKe"
+		},
+		{
+			"email": "isellars1@foxnews.com",
+			"password": "17tU2cB"
+		},
+		{
+			"email": "lcarryer2@meetup.com",
+			"password": "MzKBOGAC5"
+		},
+		{
+			"email": "jsarver3@360.cn",
+			"password": "jLu1dnL"
+		},
+		{
+			"email": "cpusill4@edublogs.org",
+			"password": "Z3Cma8g"
+		},
+		{
+			"email": "ebrainsby5@apache.org",
+			"password": "FBrdRjDy"
+		},
+		{
+			"email": "rroony6@apache.org",
+			"password": "rzsNOJBXH"
+		},
+		{
+			"email": "bminto7@hp.com",
+			"password": "Vjywv75rlWU"
+		},
+		{
+			"email": "zbodycomb8@usnews.com",
+			"password": "b9DY20"
+		},
+		{
+			"email": "wsouthern9@ustream.tv",
+			"password": "1Nh6Zwh"
+		}
+	],
+	"dataEmailInvalid": [
+		{
+			"email": "pagesperso-orange.fr",
+			"password": "7Rn7x0V28"
+		},
+		{
+			"email": "privacy.gov.au",
+			"password": "AZ1tvV"
+		},
+		{
+			"email": "mapy.cz",
+			"password": "pCA34D"
+		},
+		{
+			"email": "linkedin.com",
+			"password": "fBPyPxJ"
+		},
+		{
+			"email": "people.com.cn",
+			"password": "Nh5I8i7QqA"
+		},
+		{
+			"email": "sun.com",
+			"password": "iCp5g1v60X79"
+		},
+		{
+			"email": "4shared.com",
+			"password": "wfFro3sJ6"
+		},
+		{
+			"email": "myspace.com",
+			"password": "fhdlVjHE"
+		},
+		{
+			"email": "eepurl.com",
+			"password": "0O2KZbg"
+		},
+		{
+			"email": "digg.com",
+			"password": "Yb4Cml5GrkV"
+		}
+	],
+	"dataEmailInvalidFormatForgot": [
+		{
+			"email": "wordpress.com"
+		},
+		{
+			"email": "cdc.gov"
+		},
+		{
+			"email": "jigsy.com"
+		},
+		{
+			"email": "istockphoto.com"
+		},
+		{
+			"email": "ycombinator.com"
+		},
+		{
+			"email": "oracle.com"
+		},
+		{
+			"email": "barnesandnoble.com"
+		},
+		{
+			"email": "dion.ne.jp"
+		},
+		{
+			"email": "diigo.com"
+		},
+		{
+			"email": "admin.ch"
+		}
+	],
+	"dataFormatEmailValid": [
+		{
+			"email": "ngowar0@usnews.com"
+		},
+		{
+			"email": "nlidington1@amazon.com"
+		},
+		{
+			"email": "nepsly2@prlog.org"
+		},
+		{
+			"email": "calvares3@bravesites.com"
+		},
+		{
+			"email": "ewhitely4@boston.com"
+		},
+		{
+			"email": "lvidineev5@nydailynews.com"
+		},
+		{
+			"email": "sstitt6@imdb.com"
+		},
+		{
+			"email": "opancoust7@rambler.ru"
+		},
+		{
+			"email": "tgaraghan8@msn.com"
+		},
+		{
+			"email": "lcambell9@g.co"
+		}
+	]
+}

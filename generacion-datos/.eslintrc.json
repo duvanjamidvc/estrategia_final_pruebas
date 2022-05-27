@@ -1,0 +1,18 @@
+{
+	"root": true,
+	"standard": {
+		"globals": [
+			"cy",
+			"Cypress",
+			"expect",
+			"assert"
+		],
+		"env": ["cypress/globals"],
+		"extends": [
+			"plugin:cypress/recommended"
+		]
+	},
+	"extends": [
+		"plugin:cypress/recommended"
+	]
+}

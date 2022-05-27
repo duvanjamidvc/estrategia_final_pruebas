@@ -1,0 +1,21 @@
+{
+	"admins": [
+		{
+			"username": "dj.vargasc1@uniandes.edu.co",
+			"password": "bonita1809"
+		},
+		{
+			"username": "plinio@uniandes.edu.co",
+			"password": "bonita1809"
+		},
+		{
+			"username": "n.santiago@uniandes.edu.co",
+			"password": "bonita1809"
+		},
+		{
+			"username": "pruebas@uniandes.edu.co",
+			"password": "bonita1809"
+		}
+	],
+	"members": []
+}
