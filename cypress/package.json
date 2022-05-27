@@ -1,0 +1,22 @@
+{
+	"name": "pruebas-e2e-ghost",
+	"version": "1.0.0",
+	"description": "Pruebas end to end ghost",
+	"main": "index.js",
+	"scripts": {
+		"test:no-exit": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/login*.js' --headed chrome --no-exit",
+		"start": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/login*.js' --headless  chrome ",
+		"start:record": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/*.js' --headless  chrome --record --key 95cb80ed-138e-4ebb-9bb5-cb99734d44a8 ",
+		"start:head": "npx cypress run --config-file ./cypress.env.json --spec 'cypress/integration/ghost/*.js' --headed  chrome "
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^9.6.0",
+		"cypress-log-to-output": "^1.0.8",
+		"cypress-plugin-tab": "^1.0.5"
+	},
+	"dependencies": {
+		"faker": "^5.5.3"
+	}
+}
