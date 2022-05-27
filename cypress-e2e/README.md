@@ -1,6 +1,6 @@
 ## Prerequsisitos
 
-- [Repositorio](https://github.com/duvanjamidvc/pruebas-e2e-ghost.git) `git clone https://github.com/duvanjamidvc/pruebas-e2e-ghost.git` o descargué el zip y descomprímalo.
+- [Repositorio](https://github.com/duvanjamidvc/estrategia_final_pruebas.git) `git clone https://github.com/duvanjamidvc/estrategia_final_pruebas.git` o descargué el zip y descomprímalo.
 - [NodeJS (Version ≥ 12)](https://nodejs.org)
 
 ## Ejecutar pruebas
