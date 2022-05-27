@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+/// <reference types="cypress-e2e" />
 const fs = require("fs");
 const path = require("path");
 // ***********************************************************

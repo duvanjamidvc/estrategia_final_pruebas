@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+/// <reference types="cypress-e2e" />
 /// <reference types="../../support" />
 
 Cypress.on("uncaught:exception", (err, a) => {
@@ -24,7 +24,7 @@ describe("Pages", () => {
 		let title = "Titulo de la pagina" + new Date().getTime();
 		let contenido = cy.faker.lorem.paragraph();
 
-		cy.createPage(title, contenido,stage);
+		cy.createPage(title, contenido, stage);
 		cy.createPageLink(title, stage);
 		cy.closeDashBoardSession();
 		cy.validatePageByTitleAndLink(title, 1, stage);
@@ -36,8 +36,8 @@ describe("Pages", () => {
 		let title = "Titulo de la pagina" + new Date().getTime();
 		let contenido = cy.faker.lorem.paragraph();
 
-		cy.createPage(title, contenido,stage);
-		cy.validatePageLoadPublicLink(title,stage);
+		cy.createPage(title, contenido, stage);
+		cy.validatePageLoadPublicLink(title, stage);
 	});
 
 	it("Eliminar pagina y link corespondiente", () => {
@@ -45,13 +45,13 @@ describe("Pages", () => {
 		let title = "Titulo de la pagina" + new Date().getTime();
 		let contenido = cy.faker.lorem.paragraph();
 
-		cy.createPage(title, contenido,stage);
+		cy.createPage(title, contenido, stage);
 		cy.createPageLink(title, stage);
 		cy.closeDashBoardSession();
 		cy.validatePageByTitleAndLink(title, 1, stage);
 		cy.login(usuarios.admins[0].username, usuarios.admins[0].password);
-		cy.deletePageLinkByTitle(title,stage);
-		cy.deletePageByTitle(title,stage);
+		cy.deletePageLinkByTitle(title, stage);
+		cy.deletePageByTitle(title, stage);
 		cy.validatePageByTitleAndLink(title, 0, stage);
 	});
 

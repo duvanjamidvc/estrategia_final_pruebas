@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+/// <reference types="cypress-e2e" />
 /// <reference types="../../support" />
 
 Cypress.on('uncaught:exception', (err, a) => {

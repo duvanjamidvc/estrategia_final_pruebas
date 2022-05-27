@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+/// <reference types="cypress-e2e" />
 
 let usuarios;
 let tagInfo;

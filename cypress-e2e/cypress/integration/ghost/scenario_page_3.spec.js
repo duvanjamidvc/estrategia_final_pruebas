@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+/// <reference types="cypress-e2e" />
 
 Cypress.on("uncaught:exception", (err, a) => {
 	return false;
@@ -17,7 +17,7 @@ describe("Pages", () => {
 		cy.screenshot('create-page-delete-page/clicking-login');
 	});
 
-	it("Crear pagina, publicarla, editarla y verificar que se publicó a traves del link generado en el las configuraciones de la pagina", () => {
+	it("Crear pagina, publicarla, editarla, cambiar el estado a borrador y válido en la lista de paginas que el estado sea borrador", () => {
 		const stage = "create-page-delete-page";
 		let title = cy.faker.name.title();
 		let contenido = cy.faker.lorem.sentence();
@@ -27,9 +27,13 @@ describe("Pages", () => {
 		cy.screenshot(`${stage}/back-button-page`);
 		cy.wait(400);
 		cy.filterPublishPage(stage);
-		cy.selectFirstPageOfListAndEdit(stage);
-		cy.publishPage(stage);
-		cy.validatePublishPageFromSettings(stage);
+		cy.selectFirstPageOfListAndChangeState(stage);
+		cy.wait(400);
+		cy.get(".gh-editor-back-button").click();
+		cy.screenshot(`${stage}/back-button-page-2`);
+		cy.wait(400);
+		cy.filterDraftPage(stage);
+		cy.validateDraftStatePage(title, 1);
 	});
 
 	afterEach(function () {
