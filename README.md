@@ -1,6 +1,9 @@
 # Estrategia final pruebas
 Puede consular la estrategia de pruebas aquí [https://drive.google.com/file/d/1ny6Wr8vRiifF-pj5tmfgMkWm59zqPieb/view?usp=sharing](https://drive.google.com/file/d/1ny6Wr8vRiifF-pj5tmfgMkWm59zqPieb/view?usp=sharing)
 
+## Presentación entrega final
+En este enlace se encuentra el [video de la presentación final](https://drive.google.com/file/d/1he5zA3-ysToZv9bwjDt1bcoozy8PZU1V/view?usp=sharing)
+
 ## Inventario de pruebas manuales exploratorias
 [https://docs.google.com/spreadsheets/d/1XtZmVOyZf9qPfCrH6DZhE-2XPEByrG8c/edit?usp=sharing&ouid=106675374400651922730&rtpof=true&sd=true](https://docs.google.com/spreadsheets/d/1XtZmVOyZf9qPfCrH6DZhE-2XPEByrG8c/edit?usp=sharing&ouid=106675374400651922730&rtpof=true&sd=true)
 
