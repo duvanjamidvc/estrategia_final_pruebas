@@ -1,5 +1,5 @@
 # Estrategia final pruebas
-Puede consular la estrategia de pruebas aquí [https://docs.google.com/document/d/1xTL1VJww6Dyb4kgUb_YF_iQQt3Ta3LYa](https://docs.google.com/document/d/1xTL1VJww6Dyb4kgUb_YF_iQQt3Ta3LYa)
+Puede consular la estrategia de pruebas aquí [https://drive.google.com/file/d/1ny6Wr8vRiifF-pj5tmfgMkWm59zqPieb/view?usp=sharing](https://drive.google.com/file/d/1ny6Wr8vRiifF-pj5tmfgMkWm59zqPieb/view?usp=sharing)
 
 ## Inventario de pruebas manuales exploratorias
 [https://docs.google.com/spreadsheets/d/1XtZmVOyZf9qPfCrH6DZhE-2XPEByrG8c/edit?usp=sharing&ouid=106675374400651922730&rtpof=true&sd=true](https://docs.google.com/spreadsheets/d/1XtZmVOyZf9qPfCrH6DZhE-2XPEByrG8c/edit?usp=sharing&ouid=106675374400651922730&rtpof=true&sd=true)
