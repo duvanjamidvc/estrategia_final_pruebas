@@ -5,7 +5,7 @@
 
 ## Ejecutar pruebas
 
-- Abra una terminar y ubíquese en el folder del proyecto descargado y acceda a la carpeta cypress `cd /cypress`
+- Abra una terminar y ubíquese en el folder del proyecto descargado y acceda a la carpeta cypress `cd /cypress-e2e`
 - Ejecute el siguiente comando para instalar los paquetes necesarios
   `npm install`
 - Verifique que puede acceder al sitio  [https://ghost-e2e-miso.herokuapp.com/ghost/](https://ghost-e2e-miso.herokuapp.com/ghost/) con las credenciales:
